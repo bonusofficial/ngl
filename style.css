@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+    color: #000;
+}
+body {
+    background-color: #ff8052;
+}
+#main {
+    padding-top: 5rem;
+    min-height: 90vh;
+}
+.font-main {
+    font-weight: 500;
+    font-size: 2rem;
+    color: #fff;
+}
+textarea {
+    resize: none;
+    outline: none;
+}
+.supermain-text {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: 2px solid #f2cea1;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
+
+.supermain-text:focus {
+    border-color: #ff8052;
+}
+.btn-submit {
+    background: #ff8052;
+    color: #fff;
+}
+.btn-submit:hover {
+    background: none;
+    border-color: #ff8052;
+    color: #ff8052;
+}
+p {
+    color: #fff;
+}
+.profile {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    border-radius: 20px;
+}
+.myig-text {
+    color: rgb(0, 0, 0, 0.5);
+    text-decoration: none;
+}
